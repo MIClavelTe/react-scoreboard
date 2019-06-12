@@ -14,7 +14,7 @@ const Header = ({players, title}) => {
     );
   }
 
-Header.PropTypes = {
+Header.propTypes = {
   players: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string
 }
